@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* tempory */
+    color: white;
+   
+}
+body{
+    background-color: #000235;
+}
+.container{
+    margin: 0 95px;
+    position: relative;
+}
+.container .tech{
+    background-color: #D9D9D9;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Outfit", sans-serif;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+.profile{
+    border-radius: 50%;
+}
+.title{
+    display: flex;
+    font-weight: bold;
+    align-self: center;
+}
+.link{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #F5F5F5;
+}
+a{
+    color: #F5F5F5;
+}
+button{
+    display: flex;
+    font-size: 15px;
+    border-radius: 10px;
+    color: #000235;
+    background-color: #D9D9D9;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* INRODUCTION PART */
+.intro{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 30px 0;
+}
+.right
+{
+    font-family: "Roboto", sans-serif;
+}
+.name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    text-transform:uppercase ;
+    margin-top: 50px;
+}
+.para1{
+    margin-top: 30px;
+}
+.icons{
+    margin: 50px 10px;
+    letter-spacing: 20px;
+}
+
+.img{
+    display: flex;
+    margin: 10px 10px;
+    
+}
+/* section-2(what i do?) */
+.box{
+    /* width: 1159x; */
+    height: 500px;
+    margin: 0 50px ;
+    display: block;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+    margin-top: 200px;
+    font-family:"Roboto", sans-serif ;
+}
+.box h2{
+    color: #000000;
+    font-size: 40px;
+    padding: 50px 40px;
+}
+
+.inner1{
+    display: flex;
+    gap: 0;
+}
+.img1{
+    margin: 0 5px;
+    margin-bottom: 30px;
+    padding: 30px 30px;
+
+}
+.course{
+    display: flex;
+    margin: 30px 30px;
+    gap: 25px;
+}
+/* section-3(projects) */
+.box2{
+    /* width: 1159x; */
+    height: 500px;
+    margin: 0 50px ;
+    display: block;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #D9D9D9;
+    margin-top: 200px;
+    font-family:"Roboto", sans-serif ;
+}
+.box2 h2{
+    color: #000000;
+    font-size: 40px;
+    padding: 50px 40px;
+}
+
+.box2 .projects{
+    display: flex;
+    gap: 95px;
+}
+.img3{
+    width: auto;
+    
+    margin: 0 5px;
+    margin-bottom: 30px;
+    padding: 30px 30px;
+    justify-content: end;
+
+}
+.listproj{
+    display: flex;
+    margin: 50px 30px;
+    margin-left: 90px;
+    margin-top: 50;
+    gap: 50px;
+    padding: 20px 20px;
+    padding-top: 0;
+}
+.listproj div{
+    color: #000000;
+}
+.listproj p{
+    color: #000000;
+    font-family:"Roboto", sans-serif ;
+}
+.footer{
+    margin-top: 300px;
+    background-color: #D9D9D9;
+    text-align: center;
+}
+ .footer h4{
+    color: #000000;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-family:"Roboto", sans-serif ;
+}
+
